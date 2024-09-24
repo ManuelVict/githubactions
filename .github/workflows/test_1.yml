@@ -13,6 +13,9 @@ jobs:
       - name: Touch file
         run:  touch hola.txt
 
+      - name: Set Text
+        run: echo "hello word" >> hola.txt
+
       - name: Read File
         run:  cat hola.txt
 
