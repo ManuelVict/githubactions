@@ -1,0 +1,19 @@
+key: hello word
+
+person:
+  name: John
+  age: 30
+  city: new york
+  items:
+    - item 1
+    - item 2
+    - item 3
+  
+  items2:
+    - item1: hello
+    - item2: hello2
+    - item3: hello3
+
+scripts: |
+  touch hello.txt
+  echo "hello";
