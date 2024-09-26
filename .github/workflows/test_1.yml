@@ -42,5 +42,13 @@ jobs:
         node-version: lastest
     - name: nodeVersion
       run: node --version
+    - name: php
+      uses: NxtLvLSoftware/setup-phpstan-action@v1.0.2
+      with:
+        version: '1.8.1'
+    - name: php_version
+      uses: php --version
+
+      
 
   
