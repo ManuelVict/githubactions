@@ -49,6 +49,9 @@ jobs:
     - name: php_version
       run: php --version
 
+    - name: foreingAction
+      uses: ./.github/actions/myAction
+
       
 
   
