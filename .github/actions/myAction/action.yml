@@ -6,5 +6,5 @@ runs:
 
 steps:
   - name: Hello word
-    runs: echo "hello word"
+    run: echo "hello word"
     shell: bash
