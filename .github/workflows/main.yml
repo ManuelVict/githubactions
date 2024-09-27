@@ -54,6 +54,21 @@ jobs:
       with:
         message: "Francisco"
 
+  Servir:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:5.7
+        env:
+         MYSQL_ROOT_PASSWORD: example
+        ports:
+          - 3306:3306
+
+    steps:
+      - name: Eragon
+        run: ls
+      
       
 
   
