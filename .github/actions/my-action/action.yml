@@ -11,5 +11,5 @@ runs:
 
   steps:
     - name: Hello word
-      run: echo "Hola {{ inputs.message}}"
+      run: echo "Hola ${{ inputs.message}}"
       shell: bash
