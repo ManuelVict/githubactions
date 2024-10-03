@@ -54,6 +54,16 @@ jobs:
       with:
         message: "Francisco"
 
+  say-hello:
+    runs-on: ubuntu-latest
+
+    env:
+      MY_VAR:  Mi variable de enterno
+
+    steps:
+      - name: TestVariables
+        run: echo "Valor $MY_VAR"
+
   Servir:
     runs-on: ubuntu-latest
 
