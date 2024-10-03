@@ -68,6 +68,10 @@ jobs:
 
       - name: TestEnvVariablesRemote
         run: echo "valor ${{vars.MY_VARIABLE_2}}"
+      
+      - name: Secret
+        run: echo "Secrest ${{secrets.MY_SECRET}}"
+
 
 
   Servir:
